@@ -19,7 +19,7 @@
         <div class="text-center py-10 md:py-20 px-5">
             <h3 class="text-3xl md:text-4xl lg:text-5xl my-3 md:my-5 text-gray-500 dark:text-gray-300">We write the</h3>
             <h2 class="text-6xl md:text-7xl lg:text-8xl my-3 md:my-5 text-gray-600 dark:text-gray-100 font-play">Susscode</h2>
-            <h3 class="text-3xl md:text-4xl lg:text-5xl my-3 md:my-5 text-green-500">You have a Software!</h3>
+            <h3 class="text-3xl md:text-4xl lg:text-5xl my-3 md:my-5 text-green-500">You own the Software!</h3>
             <img src="{{ asset('images/susscoder.jpg') }}" class="w-full md:w-1/3 mx-auto my-10 rounded shadow-lg" alt="developer">
         </div>
     </header>
