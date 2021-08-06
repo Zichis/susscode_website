@@ -20,5 +20,6 @@
         "sass": "^1.37.5",
         "sass-loader": "^12.1.0",
         "tailwindcss": "^2.2.7"
-    }
+    },
+    "dependencies": {}
 }
