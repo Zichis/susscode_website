@@ -18,14 +18,14 @@
             <a href="#contact-us" class="text-yellow-500 hover:text-yellow-400">Contact Us</a>
         </div>
     </nav>
-    <header>
+    <header class="flex justify-center items-center" style="background: linear-gradient(to bottom, rgba(15, 15, 15, 0.65), rgba(15, 15, 15, 0.65)), url('images/susscoder.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 70vh;">
         <div class="text-center py-10 md:py-20 px-5">
             <div class="animate__animated animate__backInLeft">
                 <h3 class="text-3xl md:text-4xl lg:text-5xl my-3 md:my-5 text-gray-500 dark:text-gray-300">We write the</h3>
                 <h2 class="text-6xl md:text-7xl lg:text-8xl my-3 md:my-5 text-gray-600 dark:text-gray-100 font-play">Susscode</h2>
                 <h3 class="text-3xl md:text-4xl lg:text-5xl my-3 md:my-5 text-green-500">You own the Software!</h3>
             </div>
-            <img src="{{ asset('images/susscoder.jpg') }}" class="w-full md:w-1/3 mx-auto my-10 rounded shadow-lg animate__animated animate__backInRight" alt="developer">
+            {{--<img src="{{ asset('images/susscoder.jpg') }}" class="w-full md:w-1/3 mx-auto my-10 rounded shadow-lg animate__animated animate__backInRight" alt="developer">--}}
         </div>
     </header>
     <section class="px-10 py-20 bg-white dark:bg-gray-400 text-center">
