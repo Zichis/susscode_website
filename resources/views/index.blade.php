@@ -11,10 +11,7 @@
     <nav class="border-b dark:border-gray-600">
         <div class="flex justify-between items-center px-5 md:px-12 lg:px-24 py-2">
             <div class="flex items-center">
-                <img src="{{ asset('images/susscode_logo.svg') }}" class="w-14 rounded md:w-20" alt="logo">
-                <h3 class="ml-3 text-3xl text-yellow-500 font-play">
-                    Susscode
-                </h3>
+                <img src="{{ asset('images/logopng.png') }}" class="w-12 h-14 rounded md:w-12" alt="logo">
             </div>
         </div>
     </nav>
