@@ -10,7 +10,7 @@
 </head>
 <body class="bg-gray-100 dark:bg-gray-700">
     @include('sweetalert::alert')
-    <nav class="border-b bg-green-500 dark:border-gray-600 dark:bg-transparent">
+    <nav class="border-b bg-green-500 dark:border-gray-600 dark:bg-gray-700">
         <div class="flex justify-between items-center px-5 md:px-12 lg:px-24 py-2">
             <div class="flex items-center">
                 <img src="{{ asset('images/logopng.png') }}" class="w-12 h-14 rounded md:w-12" alt="logo">
