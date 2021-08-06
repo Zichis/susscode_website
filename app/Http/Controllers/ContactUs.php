@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\ContactUs as MailContactUs;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class ContactUs extends Controller
 {
@@ -27,6 +28,8 @@ class ContactUs extends Controller
             $request->name,
             $request->message)
         );
+
+        Alert::success('Message Sent', 'Your message was successfully sent!');
 
         return redirect('/');
     }
